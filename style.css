@@ -1,0 +1,150 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:tahoma;
+}
+
+body{
+background:#e6e6fa;
+}
+
+header{
+background:#4b0082;
+color:#fff;
+text-align:center;
+padding:40px 20px;
+}
+
+.cards{
+
+max-width:1000px;
+
+margin:40px auto;
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:20px;
+
+padding:20px;
+}
+
+.card{
+
+background:#fff;
+
+text-decoration:none;
+
+color:#333;
+
+padding:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.1);
+
+transition:.3s;
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.15);
+}
+
+.card h2{
+margin:15px 0;
+}
+.product {
+  display: inline-block;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.icon img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.price{
+    margin:10px 0;
+    color:#1B842c;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.buy-btn{
+    background:#1b842c;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.buy-btn:hover{
+    opacity:0.9;
+}
+.price-btn{
+    background:#ff7b00;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin-top:15px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.price-btn:hover{
+    opacity:0.9;
+}
+
+  .service-icon{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+.price-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#4b0082;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.price-btn:hover{
+    opacity:0.9;
+}
